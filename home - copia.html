@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+  <meta charset="utf8"> <!--lo que hace es que hacepta atrivutos axis. />-->
+
+  <meta name="viewport" content="widt=device-width,intial-scale=1,0"> <!--Tamaño de la pagina y contenido />-->
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!--permite que los viejos navegadores pueda cargar nustra pagina web />-->
+
+  <meta name="author" lang="es" content=" Daniela Ponce , nombre">
+
+  <meta name="keywords" content="#">
+  <!--Indica la palabra clave la cual viculara nuestra pagina wed, es obsional ya que google ya lo tiene incorporado. />-->
+
+  <meta name="description" content="#">
+
+  <link rel="stylesheet" href=""> <!--adjunta otra pagina wed externa a nuestra pagina wed />-->
+
+  <link rel="icon" href=""> <!--le inserto una pequeña imagen a la etiqueta />-->
+
+  <!-- OJO 👀 Aqui; hay unas lineas de codigo que no deben venir duplicadas 22 a 40 -->
+  <!-- <!DOCTYPE html> -->
+  <!-- <html lang="es"> -->
+  <!-- <head>  -->
+
+  <!-- <meta charset="utf8"> lo que hace es que hacepta atrivutos axis. />-->
+
+  <!-- <meta name="viewport" content="widt=device-width,intial-scale=1,0">  Tamaño de la pagina y contenido /> -->
+
+  <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> permite que los viejos navegadores pueda cargar nustra pagina web /> -->
+
+  <!-- <meta name="author" lang="es" content=" Daniela Ponce , nombre"> -->
+
+  <!-- <meta name="keywords" content="#"> Indica la palabra clave la cual viculara nuestra pagina wed, es obsional ya que google ya lo tiene incorporado. /> -->
+
+  <!-- <meta name="description" content="#">  -->
+
+  <!-- <link rel="stylesheet" href=""> adjunta otra pagina wed externa a nuestra pagina wed /> -->
+
+  <!-- <link rel="icon" href=""> le inserto una pequeña imagen a la etiqueta /> -->
+
+  <!-- HASTA AQUI LAS lineas desde la 22 hasta la 40 estan duplicadas -->
+
+  <!--Boostrap-->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- Hoja de estilos personalizada en css\home.css -->
+  <link rel="stylesheet" href="css\home.css">
+
+  <!-- icono de navegacion -->
+
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> Esta línea se duplica -->
+  <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+  <title> Marimar </title>
+
+</head>
+
+<body>
+
+  <header class="header">
+    <!-- Header es un contenedor que va en la parte de arriba llamado encabezado -->
+    <!-- Header por lo regular contiene el navbar hasta aqui todo bien -->
+    <nav class="nav">
+      <a href="#" class="logo nav-link">Indice</a>
+      <ul class="nav-menu">
+        <li class="nav-menu-item">
+          <a href="#" class="nav-menu-link nav-link">Promociones</a>
+        </li>
+        <li class="nav-menu-item">
+          <a href="#" class="nav-menu-link nav-link">Productos</a>
+        </li>
+        <li class="nav-menu-item">
+          <a href="#" class="nav-menu-link nav-link">Los Productos más vendidos</a>
+        </li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main>
+    <div class="bienvenida mt-5" style="background-image: url(imagenes/colores.jpg)">
+
+      <h1> <b>Bienvenido a la tienda !!!</b></h1>
+
+      <p class="textolobienvenido">“¡Tu satisfacción es nuestro mayor objetivo! Nos encanta que te guste nuestros
+        productos. ¡Te agradecemos por elegirnos !”</p>
+
+    </div>
+
+    <!-- Header ya fue definido una vez no se puede volver a definir -->
+    <!-- <header class="encavesadovene"> Error grave: hay dos etiquetas header con estilos diferentes. -->
+    
+
+    <!-- INICA Carrusel Bootstrap -->
+    <div class="container">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://i.pinimg.com/originals/61/bd/03/61bd03f7b5e6aefbff39afa43320f5cc.jpg" height="350px" sytle="object-fit: cover; object-position: center;">
+          </div>
+          <div class="carousel-item">
+            <img src="https://cdn.forbes.com.mx/2022/06/super-tienda-e1654633021697.jpg" height="350px" sytle="object-fit: cover; object-position: center;">
+          </div>
+          <div class="carousel-item">
+            <img src="https://realestatemarket.com.mx/images/2023/noviembre/23-noviembre/tiendas-de-conveniencia-esenciales-en-peru-y-chile-g.jpg" height="350px" sytle="object-fit: cover; object-position: center;">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Imágenes de prueba -->
+    <!-- TERMINA Carrusel Bootstrap -->
+
+    <div class="veneficio">
+
+      <div class="hijoveneficio">
+        <img src="imagenes/tarjeta-de-credito.png">
+        <h4>Pagá con tarjeta o en efectivo</h4>
+        <p>Con Marimar, tenés cuotas sin interés con tarjeta o Mercado pago. ¡Y siempre es seguro!</p>
+      </div>
+
+      <div class="hijoveneficio">
+        <img src="imagenes/segoro.jpg">
+        <h4>Seguridad, de principio a fin</h4>
+        <p>Protegemos los datos de nuestros clietes. Navega sin precupaciones</p>
+      </div>
+
+      <div class="hijoveneficio">
+        <img src="imagenes/camion.png">
+        <h4>Envío gratis desde $ 5.000</h4>
+        <p>Solo por estar registrado en Marimar tenés envíos gratis en miles de
+          productos. Es un beneficio de Mercado </p>
+      </div>
+    </div>
+
+    <!-- </header> -->
+
+    <section> <!-- seccion de productos de limpieza -->
+
+      <div class="container1">
+
+        <h1>Los produtos mas vendidos de limpieza </h1>
+
+        <div class="hijos">
+          <h1><b> Promo 1 <b></h1>
+          <img src="imagenes/lavandinaen_gel.jpeg">
+          <img src="imagenes/rollodecocina.jpeg">
+          <p>Trae 2 paquetes de papel cocina, incluido una lavandina en gel.
+            Con el increible precio $ 6.000
+          </p>
+        </div>
+
+        <div class="hijos">
+          <h1><b> Promo 2 <b></h1>
+          <img src="imagenes/limpiador-pisos.jpeg">
+          <img src="imagenes/mopa.jpeg">
+          <p>Trae un bidon de cif con una mopa de regalo. A tansolo $12.000</p>
+        </div>
+
+        <div class="hijos">
+          <h1><b> Promo 3 <b></h1>
+          <img src="imagenes/jabonpararopa.png">
+          <p>Super promo, limpiador de pisos,suavisante,jabon para la ropa. A solo $10.500</p>
+        </div>
+
+        <div class="hijos">
+          <h1><b> Promo 4 <b></h1>
+          <img src="imagenes/detergente.jpeg">
+          <img src="imagenes/esponja.jpg">
+          <p>Detergente de primera marca,super rendidor con 2 esponjas de regalo. Sorprendente precio a $13.000</p>
+        </div>
+
+      </div>
+
+    </section>
+
+    <section> <!-- secion de productos elavorados alimenticio -->
+
+      <div class="container2">
+
+        <h1>Los produtos mas vendidos de alimentos envasados</h1>
+
+        <div class="hijos">
+          <h1><b> Promo 1 <b></h1>
+          <img src="imagenes/yerba.jpeg">
+          <img src="imagenes/yerba.jpeg">
+          <p>Llebando 2 paquetes de 1,2kg de la marca "Union". A tansolo $ 4.000</p>
+        </div>
+
+        <div class="hijos">
+          <h1><b> Promo 2 <b></h1>
+          <img src="imagenes/arroz.png">
+          <img src="imagenes/polenta.png">
+          <p>Arroz de primera marca, acompañado con un paquete de polenta.Con un precio de $3.000</p>
+        </div>
+
+        <div class="hijos">
+          <h1><b> Promo 3 <b></h1>
+          <img src="imagenes/leche.jpeg">
+          <img src="imagenes/leche.jpeg">
+          <img src="imagenes/leche.jpeg">
+          <p>3 por 2 !!.Yebas 3 pagas 2. A solo $4.000</p>
+        </div>
+
+        <div class="hijos">
+          <h1><b> Promo 4 <b></h1>
+          <img src="imagenes/fideos.jpg">
+          <img src="imagenes/lata-de-tomate.jpeg">
+          <p>Llebas 2 paquetes de fideos con 2 latas de tomate picados. A solo $8.000</p>
+        </div>
+
+
+
+      </div>
+
+    </section>
+
+    <section class="registro"> <!-- Formulario de carga de nuevos productos -->
+
+      <form action="/registro" method="post">
+
+        <h1 class="tituloregistro"><u><b>Carga tu producto</b></u></h1>
+
+        <label for="nombre">Nombre y Apllido:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="nombre completo">
+
+        <br> <br>
+
+        <label for="email">Tu correo que más frecuentas</label>
+        <input type="email" id="email" name="email" placeholder=" correo electrónico">
+
+        <br> <br>
+
+        <label for="telefono">Un telefono para que se comunique tu comprador</label>
+        <input type="tel" id="telefono" name="telefono" placeholder=" Telefono">
+
+        <br> <br>
+
+        <label for="categoria">Categoría: </label>
+        <input type="text" name="categoria" id="categoria">
+
+        <br> <br>
+
+        <label for="comentario">Description del Producto</label>
+        <textarea name="comentario" id="comentario"></textarea>
+
+        <br> <br>
+
+        <label for="localidad">Locadad o Provincia
+          <input type="text" id="localidad" name="localidad" placeholder="Localidad/Provincia">
+
+          <br> <br>
+
+          <label for="precio">El Precio:
+            <input type="text" id="precio" name="precio" placeholder="El precio que considere">
+
+            <br> <br>
+
+            <input class="boton" type="submit" value="Enviar"> <input type="reset">
+
+            <br> <br>
+
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+
+    <p id="fecha-actualizacion"></p>
+
+    <ul>
+
+      <li class="iten">Auntora: Daniela Ponce / ---nombre---</li>
+      <li class="iten"></li>
+      <li class="iten"><a>gmail:</a><a href="mailto:estudiosdanielaponce25@gmail.com"
+          class="linck">estudiosdanielaponce25@gmail.com</a></li>
+      <li class="iten"></li>
+      <li class="iten">Telefono:</li>
+
+    </ul>
+
+    <br><br>
+
+    <time class="iten" datetime="2022/06/06" pubdate="">publicado/creado 6/06/2022<p> La hora es: <time>19:40</time></p>
+    </time> <!--elemento de tiempo-->
+
+
+  </footer>
+
+</body>
+
+</html>
+
+<!-- icono de navegacion -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title> Marimar </title>
+       
+  </head>
+<body>
+
+  <header class="header">
+
+    <nav class="nav">
+      <a href="#" class="logo nav-link">Home</a>
+      <button class="nav-toggle" aria-label="Abrir menú">    <!--la amurguesa va en midia cueri-->
+        <i class="fa fa-bars"></i>
+      </button>
+      <ul class="nav-menu">
+        <li class="nav-menu-item">
+          <a href="#" class="nav-menu-link nav-link">Promociones</a>
+        </li>
+        <li class="nav-menu-item">
+          <a href="#" class="nav-menu-link nav-link">Productos</a>
+        </li>
+        <li class="nav-menu-item">
+          <a href="#" class="nav-menu-link nav-link">Comentarios de nuestra comunidad</a>
+        </li>
+      </ul>
+    </nav>
+
+  </header>
+
+ <main> 
+    <div class="bienvenida" style="background-image: url(imagenes/colores.jpg)">
+        
+      <h1> <b>Bienvenido a la tienda !!!</b></h1>
+
+      <p class="textolobienvenido">“¡Tu satisfacción es nuestro mayor objetivo! Nos encanta que te guste nuestros
+        productos. ¡Te agradecemos por elegirnos !”</p>
+
+    </div>
+  
+    <header class="encavesadovene">
+
+      <div class=" veneficio">
+  
+          <div class="hijoveneficio">
+            <img src="imagenes/tarjeta-de-credito.png">
+            <h4>Pagá con tarjeta o en efectivo</h4>
+            <p>Con Marimar, tenés cuotas sin interés con tarjeta o Mercado pago. ¡Y siempre es seguro!</p>
+          </div>
+  
+          <div class="hijoveneficio">
+            <img src="imagenes/segoro.jpg">
+            <h4>Seguridad, de principio a fin</h4>
+            <p>Protegemos los datos de nuestros clietes. Navega sin precupaciones</p>
+          </div>
+        
+          <div class="hijoveneficio"> 
+            <img src="imagenes/camion.png">
+            <h4>Envío gratis desde $ 5.000</h4>
+            <p>Solo por estar registrado en Marimar tenés envíos gratis en miles de
+                productos. Es un beneficio de Mercado </p>
+          </div>
+     </div>
+      
+    </header>
+  
+    <section>                          <!-- secion de productos de lipieza -->
+  
+      <div class="container1">
+
+        <h1>Los produtos mas vendidos de limpieza </h1>
+
+        <div class="hijos">
+          <h1><b> Promo 1 <b></h1> 
+          <img src="imagenes/lavandinaen_gel.jpeg">
+          <img src="imagenes/rollodecocina.jpeg">
+          <p>Trae 2 paquetes de papel cocina, incluido una lavandina en gel.
+            Con el increible precio $ 6.000
+          </p>
+        </div>
+
+        <div class="hijos">
+          <h1><b> Promo 2 <b></h1>
+          <img src="public/imagenes/limpiador-pisos.jpeg">
+          <img src="public/imagenes/mopa.jpeg">
+          <p>Trae un bidon de cif con una mopa de regalo. A tansolo $12.000</p>
+        </div>
+
+        <div class="hijos">
+          <h1><b> Promo 3 <b></h1> 
+          <img src="imagenes/jabonpararopa.png">
+          <p>Super promo, limpiador de pisos,suavisante,jabon para la ropa. A solo $10.500</p>
+        </div>
+      
+        <div class="hijos" >
+          <h1><b> Promo 4 <b></h1> 
+          <img src="imagenes/detergente.jpeg">
+          <img src="imagenes/esponja.jpg">
+          <p>Detergente de primera marca,super rendidor con 2 esponjas de regalo. Sorprendente precio a $13.000</p>
+        </div>
+
+      </div>
+
+    </section>
+
+    <section> <!-- secion de productos elavorados alimenticio -->
+
+      <div class="container2">
+
+        <h1>Los produtos mas vendidos de alimentos envasados</h1>
+         
+        <div class="hijos" >
+          <h1><b> Promo 1 <b></h1> 
+          <img  src="imagenes/yerba.jpeg">
+          <img  src="imagenes/yerba.jpeg">
+          <p>Llebando 2 paquetes de 1,2kg de la marca "Union". A tansolo $ 4.000</p>
+        </div>
+
+        <div class="hijos">
+          <h1><b> Promo 2 <b></h1>
+          <img  src="imagenes/arroz.png">
+          <img  src="imagenes/polenta.png">
+          <p>Arroz de primera marca, acompañado con un paquete de polenta.Con un precio de $3.000</p>
+        </div>
+
+        <div class="hijos">
+          <h1><b> Promo 3 <b></h1> 
+          <img src="imagenes/leche.jpeg">
+          <img src="imagenes/leche.jpeg">
+          <img src="imagenes/leche.jpeg">
+          <p>3 por 2 !!.Yebas 3 pagas 2. A solo $4.000</p>
+        </div>
+
+        <div class="hijos">
+          <h1><b> Promo 4 <b></h1> 
+          <img  src="imagenes/fideos.jpg">
+          <img  src="imagenes/lata-de-tomate.jpeg">
+          <p>Llebas 2 paquetes de fideos con 2 latas de tomate picados. A solo $8.000</p>
+        </div>
+
+
+
+      </div>
+
+    </section>
+  
+    <section class="registro">          <!-- Formulario de carga de nuevos productos -->
+        
+          <form action="/registro" method="post">
+      
+            <h1 class="tituloregistro" ><u><b>Carga tu producto</b></u></h1>
+        
+            <label for="nombre">Nombre y Apllido:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="nombre completo">
+  
+            <br> <br>
+            
+            <label for="email">Tu correo que más frecuentas</label>
+            <input type="email" id="email" name="email" placeholder=" correo electrónico">
+            
+            <br> <br>
+  
+            <label for="telefono">Un telefono para que se comunique tu comprador</label>
+            <input type="tel" id="telefono" name="telefono" placeholder=" Telefono">
+  
+            <br> <br>
+            
+            <label for="categoria">Categoría: </label>
+            <input type="text" name="categoria" id="categoria">
+        
+            <br> <br>
+      
+            <label for="comentario">Description del Producto</label>
+            <textarea name="comentario" id="comentario" ></textarea>
+  
+            <br> <br>
+  
+            <label for="localidad">Locadad o Provincia
+            <input type="text" id="localidad" name="localidad" placeholder="Localidad/Provincia">
+  
+            <br> <br>
+        
+            <label for="precio">El Precio:
+            <input type="text" id="precio" name="precio" placeholder="El precio que considere">
+
+            <br> <br>
+
+            <input class="boton" type="submit" value="Enviar"> <input type="reset">
+
+            <br> <br>
+        
+          </form>
+    </section>
+
+  </main>
+  
+  <footer>
+      
+    <p id="fecha-actualizacion"></p>
+  
+    <ul> 
+  
+      <li class="iten">Auntora: Daniela Ponce / ---nombre---</li>
+      <li class="iten"></li> 
+      <li class="iten"><a>gmail:</a><a href="mailto:estudiosdanielaponce25@gmail.com" class="linck">estudiosdanielaponce25@gmail.com</a></li>
+      <li class="iten"></li>
+      <li class="iten">Telefono:</li>
+        
+    </ul>
+    
+   <br><br>
+  
+    <time class="iten" datetime="2022/06/06" pubdate="">publicado/creado 6/06/2022<p> La hora es: <time>19:40</time></p></time> <!--elemento de tiempo-->
+  
+  
+  </footer>
+
+  <!-- Libreria JavaScript de Bootstrap Bundle hace las acciones interactivas de bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+</body>
+</html>
